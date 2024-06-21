@@ -1,0 +1,19 @@
+name: Han
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - numpy=1.24*
+  - numba
+  - scipy
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - opencv
+  - joblib
+  - matplotlib-base
+  - spyder
+  - pip
+  - pip:
+    - napari[all]
